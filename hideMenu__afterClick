@@ -7,3 +7,8 @@ $(document).on('click', function(e) {
   }
   e.stopPropagation();
 });
+
+<div class="parent_block">
+  <div class="button"></div>
+  <div class="toggled_block"></div>
+</div>
