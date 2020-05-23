@@ -1,0 +1,14 @@
+$(".menu-btn").click(function(){
+  $("#menu").animate({
+      height: 'toggle'
+      });
+      $("#menu").css({
+        display: 'flex',
+        });
+}); 
+
+$(".nav-menu li a, .nav-menu__reservation-btn").click(function() {
+  $("#menu").animate({
+    height: 'toggle',
+    });
+}); 
