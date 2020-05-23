@@ -1,4 +1,4 @@
-$(".menu-btn").click(function(){
+$(".btn").click(function(){
   $("#menu").animate({
       height: 'toggle'
       });
@@ -7,7 +7,9 @@ $(".menu-btn").click(function(){
         });
 }); 
 
-$(".nav-menu li a, .nav-menu__reservation-btn").click(function() {
+//hide menu after click on link
+
+$(".nav-menu li a").click(function() {
   $("#menu").animate({
     height: 'toggle',
     });
