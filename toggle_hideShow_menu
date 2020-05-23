@@ -7,7 +7,7 @@ $(".btn").click(function(){
         });
 }); 
 
-//hide menu after click on link
+//hide menu after click on link in this menu
 
 $(".nav-menu li a").click(function() {
   $("#menu").animate({
