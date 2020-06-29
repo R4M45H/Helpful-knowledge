@@ -2,9 +2,6 @@ $(".btn").click(function(){
   $("#menu").animate({
       height: 'toggle'
       });
-      $("#menu").css({
-        display: 'flex',
-        });
 }); 
 
 //hide menu after click on link in this menu
